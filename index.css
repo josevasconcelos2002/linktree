@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.light{
+    background-color: white;
+}
+
+.dark{
+    background-color: black;
+}
+
+
+.foto{
+    width: 130px;
+    height: 130px;
+    margin: 60px auto;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.toggle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px auto;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 0px auto;
+}
+
+.links{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.link{
+    border: 1px solid black;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
